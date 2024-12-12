@@ -1,0 +1,43 @@
+.formDiv {
+    margin-top: 15px;
+    border-radius: 10px;
+    height: auto;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.todoInput {
+    padding: 10px;
+    flex: 1; 
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; 
+    font-size: 16px;
+    outline: none;
+}
+
+.addBtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addBtn:hover {
+    background-color: #0056b3;
+}

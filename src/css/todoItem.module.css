@@ -1,0 +1,28 @@
+.item{
+width: 500px;
+color: #353935;
+font-size:20px ;
+margin: 0 auto;
+}
+.itemDiv{
+   font-weight: bold;
+   padding: 20px;
+}
+.line{
+ color: rgb(18, 18, 18);
+ width: 90%;
+}
+.crossBtn{
+    float: right;
+    margin-right: 50px;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+}
+.completed{
+    text-decoration: line-through;
+    cursor: pointer;
+}
